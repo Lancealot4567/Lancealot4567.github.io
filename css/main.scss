@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap');
+
+//Color Scheme
+:root {
+    --background: #252A34;
+    --navbar: #252A34;
+    --primary: #08D9D6;
+    --secondary: #FF2E63;
+    --white: #EAEAEA;
+}
+
+body {
+    background: var(--background);
+    margin: 0;
+    font-family: 'Roboto+Mono';
+}
+
+.navigation-bar {
+    background: var(--navbar);
+    padding: 20px;
+
+    .logo {
+        text-decoration: none;
+        font-weight: 700;
+        font-size: 20px;
+        color: var(--primary);
+
+        span {
+            color: var(--secondary);
+        }
+
+
+    }
+
+
+    nav {
+        display: none;
+    }
+
+    .container {
+        display: flex;
+        place-content: space-between;
+    }
+
+    .mobile-nav {
+        cursor: pointer;
+    }
+
+}
+
+a {
+    color: var(--secondary);
+}
+
+section {
+    padding: 20px 50px;
+}
+
+.hero {
+    text-align: left;
+
+
+
+    .introduction {
+        font-weight: 700;
+        font-size: large;
+        color: var(--secondary);
+    }
+
+    .name {
+        font-size: xx-large;
+        color: var(--white);
+    }
+
+
+
+
+
+
+
+}
