@@ -20,7 +20,7 @@ body {
 .navigation-bar .logo {
   text-decoration: none;
   font-weight: 700;
-  font-size: 20px;
+  font-size: large;
   color: var(--primary);
 }
 .navigation-bar .logo span {
@@ -41,19 +41,51 @@ a {
   color: var(--secondary);
 }
 
-section {
-  padding: 20px 50px;
+a:hover {
+  color: var(--primary);
 }
 
 .hero {
-  text-align: left;
+  text-align: center;
+  padding-bottom: 150px;
+  padding-top: 50px;
 }
 .hero .introduction {
   font-weight: 700;
-  font-size: large;
+  font-size: medium;
   color: var(--secondary);
 }
 .hero .name {
   font-size: xx-large;
   color: var(--white);
+}
+.hero .portrait {
+  float: left;
+  padding-bottom: 50px;
+  padding-left: 100px;
+  max-height: 300px;
+}
+
+.aboutme {
+  padding-bottom: 100px;
+  background-color: var(--secondary);
+  text-align: center;
+  margin-right: 50px;
+}
+.aboutme .heading {
+  padding-top: 10px;
+  font-size: xx-large;
+  text-align: center;
+}
+
+.portfolio {
+  background-color: var(--primary);
+  padding-bottom: 200px;
+  text-align: center;
+  margin-left: 50px;
+}
+.portfolio .heading {
+  padding-top: 10px;
+  padding-bottom: 100px;
+  font-size: xx-large;
 }/*# sourceMappingURL=main.css.map */
