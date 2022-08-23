@@ -22,6 +22,7 @@ body {
     .logo {
         max-height: 25px;
         max-width: 25px;
+        text-decoration: none;
     }
 
     .heading {
@@ -81,7 +82,7 @@ a:hover {
 
     .portrait {
         float: left;
-        padding-bottom: 50px;
+        padding-bottom: 40px;
         padding-left: 100px;
         max-height: 300px;
     }
@@ -98,6 +99,7 @@ a:hover {
 
     .heading{
         padding-top: 10px;
+        padding-left: 20px;
         font-size: xx-large;
         text-align: center;
     }
@@ -114,7 +116,9 @@ a:hover {
     
     .heading {
         padding-top: 10px;
+        padding-right: 25px;
         padding-bottom: 100px;
+        text-align: center;
         font-size: xx-large;
     }
     
