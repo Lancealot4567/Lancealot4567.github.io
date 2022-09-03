@@ -15,11 +15,11 @@ body {
 
 .navigation-bar {
   background: var(--navbar);
-  padding: 20px;
+  padding: 1.25em;
 }
 .navigation-bar .logo {
-  max-height: 25px;
-  max-width: 25px;
+  max-height: 1.5625em;
+  max-width: 1.5625em;
   text-decoration: none;
 }
 .navigation-bar .heading {
@@ -52,8 +52,8 @@ a:hover {
 
 .hero {
   text-align: center;
-  padding-bottom: 150px;
-  padding-top: 50px;
+  padding-bottom: 9.375em;
+  padding-top: 3.125em;
 }
 .hero .introduction {
   font-weight: 700;
@@ -66,48 +66,48 @@ a:hover {
 }
 .hero .portrait {
   float: left;
-  padding-bottom: 40px;
-  padding-left: 100px;
-  max-height: 300px;
+  padding-bottom: 2.5em;
+  padding-left: 6.25em;
+  max-height: 18.75em;
 }
 
 .aboutme {
-  padding-bottom: 100px;
+  padding-bottom: 6.25em;
   background-color: var(--secondary);
   text-align: center;
-  margin-right: 50px;
+  margin-right: 3.125em;
 }
 .aboutme .heading {
-  padding-top: 10px;
-  padding-left: 20px;
+  padding-top: 0.625em;
+  padding-left: 1.25em;
   font-size: xx-large;
   text-align: center;
 }
 
 .portfolio {
   background-color: var(--primary);
-  padding-bottom: 200px;
+  padding-bottom: 12.5em;
   text-align: center;
-  margin-left: 50px;
+  margin-left: 3.125em;
 }
 .portfolio .heading {
-  padding-top: 10px;
-  padding-right: 25px;
-  padding-bottom: 100px;
+  padding-top: 0.625em;
+  padding-right: 1.5625em;
+  padding-bottom: 6.25em;
   text-align: center;
   font-size: xx-large;
 }
 
 .resume {
   background-color: var(--secondary);
-  padding-bottom: 200px;
+  padding-bottom: 12.5em;
   text-align: center;
-  margin-right: 50px;
+  margin-right: 3.125em;
 }
 .resume .heading {
-  padding-top: 10px;
-  padding-right: 25px;
-  padding-bottom: 100px;
+  padding-top: 0.625em;
+  padding-right: 1.5625em;
+  padding-bottom: 6.25em;
   text-align: center;
   font-size: xx-large;
 }
